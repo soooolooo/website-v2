@@ -1,0 +1,236 @@
+:root{
+    --square: 180px;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #2f2f2f;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+}
+
+img{
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    
+    position: relative;
+    top: 50%;
+    left: 28%;
+    transform: translate(-50%, -50%);
+}
+
+.container{
+    width: 600px;
+    height: 600px;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+div[target=square]{
+    width: var(--square);
+    height: var(--square);
+    background-color: #1f1f1f;
+    border: 1px solid #5f5f5f;
+    display: inline-block;
+    margin: 5px 3px;
+    transition: background-color 0.5s;
+}
+
+.logo{
+    width: var(--square);
+    height: var(--square);
+    display: inline-block;
+    border: 1px solid #2f2f2f;
+    margin: 5px 3px;
+}
+
+div[target=square]:hover{
+    background-color: #4f4f4f;
+}
+
+/*squares (for animation porpuse)*/
+.logo{
+    animation-name: logo;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    animation-delay: s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+}
+
+.s1{
+    animation-name: s1;
+    animation-duration: 0.5s;
+    animation-iteration-count: 1;
+    animation-delay: 1.5s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+}
+
+.s2{
+    animation-name: s2;
+    animation-duration: 0.5s;
+    animation-iteration-count: 1;
+    animation-delay: 2s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+}
+
+.s3{
+    animation-name: s3;
+    animation-duration: 0.5s;
+    animation-iteration-count: 1;
+    animation-delay: 2.5s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+}
+
+.s4{
+    animation-name: s4;
+    animation-duration: 0.5s;
+    animation-iteration-count: 1;
+    animation-delay: 3s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+}
+
+.s6{
+    animation-name: s6;
+    animation-duration: 0.5s;
+    animation-iteration-count: 1;
+    animation-delay: 3.5s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+}
+
+.s7{
+    animation-name: s7;
+    animation-duration: 0.5s;
+    animation-iteration-count: 1;
+    animation-delay: 4s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+}
+
+.s8{
+    animation-name: s8;
+    animation-duration: 0.5s;
+    animation-iteration-count: 1;
+    animation-delay: 4.5s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+}
+
+.s9{
+    animation-name: s9;
+    animation-duration: 0.5s;
+    animation-iteration-count: 1;
+    animation-delay: 5s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+}
+/*end of squares animations propeties*/
+
+/*animations*/
+@keyframes logo{
+    0%{
+        width: 0px;
+        height: 0px;
+        opacity: 0;
+    }
+
+    100%{
+        width: var(--square);
+        height: var(--square);
+        opacity: 100;
+    }
+}
+
+@keyframes s1{
+    0%{
+        opacity: 0;
+    }
+
+    100%{
+        opacity: 100;
+    }
+}
+
+@keyframes s2{
+    0%{
+        opacity: 0;
+    }
+
+    100%{
+        opacity: 100;
+    }
+}
+
+@keyframes s3{
+    0%{
+        opacity: 0;
+    }
+
+    100%{
+        opacity: 100;
+    }
+}
+
+@keyframes s4{
+    0%{
+        opacity: 0;
+    }
+
+    100%{
+        opacity: 100;
+    }
+}
+
+@keyframes s6{
+    0%{
+        opacity: 0;
+    }
+
+    100%{
+        opacity: 100;
+    }
+}
+
+@keyframes s7{
+    0%{
+        opacity: 0;
+    }
+
+    100%{
+        opacity: 100;
+    }
+}
+
+@keyframes s8{
+    0%{
+        opacity: 0;
+    }
+
+    100%{
+        opacity: 100;
+    }
+}
+
+@keyframes s9{
+    0%{
+        opacity: 0;
+    }
+
+    100%{
+        opacity: 100;
+    }
+}
+/*end of animations*/
