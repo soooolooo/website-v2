@@ -276,7 +276,6 @@ div[target="square"]:hover{
 @media only screen and (max-width:450px){
     :root{
         --square: 55px;
-        --radius: 20px;
         --logoSquare: 100px;
     }
     
