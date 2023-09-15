@@ -1,6 +1,7 @@
 :root{
     --square: 70px;
     --radius: 20px;
+    --logoSquare: 115px;
 }
 
 body{
@@ -174,8 +175,8 @@ div[target="square"]:hover{
     }
 
     100%{
-        width: 115px;
-        height: 115px;
+        width: var(--logoSquare);
+        height: var(--logoSquare);
         opacity: 100;
     }
 }
@@ -270,3 +271,18 @@ div[target="square"]:hover{
     }
 }
 /*end of animations*/
+
+/*start of resizes for phones*/
+@media only screen and (max-width:450px){
+    :root{
+        --square: 55px;
+        --radius: 20px;
+        --logoSquare: 100px;
+    }
+    
+    .container{
+        width: 350px;
+        height: 350px;
+    }
+}
+/*end of resizes for phones*/
