@@ -4,8 +4,7 @@
 **"website-v2?" what is this?**
 
 This is my portfolio page to introduce myself to people who visit my website.
-
-*website-v1 can be found here: https://github.com/soooolooo/website-v1*
+<br>*website-v1 can be found here: https://github.com/soooolooo/website-v1*
 
 **Why did you create another version of the portfolio website?**
 
