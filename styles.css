@@ -160,7 +160,7 @@ div[target="square"]:hover{
     animation-name: middle;
     animation-duration: 0.5s;
     animation-iteration-count: 1;
-    animation-delay: 5.1s;
+    animation-delay: 3.6s;
     animation-fill-mode: forwards;
     opacity: 0;
 }
