@@ -94,7 +94,7 @@ div[target="square"]:hover{
     animation-name: s2;
     animation-duration: 0.5s;
     animation-iteration-count: 1;
-    animation-delay: 2.5s;
+    animation-delay: 2.2s;
     animation-fill-mode: forwards;
     opacity: 0;
 }
@@ -103,7 +103,7 @@ div[target="square"]:hover{
     animation-name: s3;
     animation-duration: 0.5s;
     animation-iteration-count: 1;
-    animation-delay: 3s;
+    animation-delay: 2.4s;
     animation-fill-mode: forwards;
     opacity: 0;
     border-top-right-radius: var(--radius);
@@ -113,7 +113,7 @@ div[target="square"]:hover{
     animation-name: s4;
     animation-duration: 0.5s;
     animation-iteration-count: 1;
-    animation-delay: 3.5s;
+    animation-delay: 3.4s;
     animation-fill-mode: forwards;
     opacity: 0;
 }
@@ -122,7 +122,7 @@ div[target="square"]:hover{
     animation-name: s6;
     animation-duration: 0.5s;
     animation-iteration-count: 1;
-    animation-delay: 4s;
+    animation-delay: 2.6s;
     animation-fill-mode: forwards;
     opacity: 0;
 }
@@ -131,7 +131,7 @@ div[target="square"]:hover{
     animation-name: s7;
     animation-duration: 0.5s;
     animation-iteration-count: 1;
-    animation-delay: 4.5s;
+    animation-delay: 3.2s;
     animation-fill-mode: forwards;
     opacity: 0;
     border-bottom-left-radius: var(--radius);
@@ -141,7 +141,7 @@ div[target="square"]:hover{
     animation-name: s8;
     animation-duration: 0.5s;
     animation-iteration-count: 1;
-    animation-delay: 5s;
+    animation-delay: 3s;
     animation-fill-mode: forwards;
     opacity: 0;
 }
@@ -150,7 +150,7 @@ div[target="square"]:hover{
     animation-name: s9;
     animation-duration: 0.5s;
     animation-iteration-count: 1;
-    animation-delay: 5.5s;
+    animation-delay: 2.8s;
     animation-fill-mode: forwards;
     opacity: 0;
     border-bottom-right-radius: var(--radius);
