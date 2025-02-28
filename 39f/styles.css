@@ -235,7 +235,6 @@ body .question-container{
     grid-template-columns: auto;
     gap: 10px;
     grid-template-rows: auto auto auto;
-    border: 2px solid #6d90b9;
 }
 
 body .question-container > div{
