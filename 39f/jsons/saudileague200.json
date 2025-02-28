@@ -1,43 +1,43 @@
 [
     {
         "question": "من هو الهداف التاريخي لدوري المحترفين السعودي؟",
-        "photoBefore": "",
-        "photoAfter": "",
+        "photoBefore": "nophoto.png",
+        "photoAfter": "nasser-alshamrani.png",
         "answer": "ناصر الشمراني",
         "score": 200
     },
     {
         "question": "في أي موسم فاز فريق الاتحاد بأول لقب للدوري السعودي بعد أن تم تغيير اسمه إلى دوري المحترفين؟",
-        "photoBefore": "",
-        "photoAfter": "",
+        "photoBefore": "nophoto.png",
+        "photoAfter": "nophoto.png",
         "answer": "موسم 2009-2010",
         "score": 200
     },
     {
         "question": "من هو المدرب الذي قاد الهلال للفوز بدوري أبطال آسيا 2019؟",
-        "photoBefore": "",
-        "photoAfter": "",
+        "photoBefore": "afc.png",
+        "photoAfter": "razfan.png",
         "answer": "رازفان لوشيسكو",
         "score": 200
     },
     {
         "question": "ما هو الفريق الذي فاز بالدوري السعودي موسم 2018-2019؟",
-        "photoBefore": "",
-        "photoAfter": "",
+        "photoBefore": "nophoto.png",
+        "photoAfter": "alnasr.png",
         "answer": "النصر",
         "score": 200
     },
     {
         "question": "من هو أول لاعب أجنبي يسجل في مباراة \"الكلاسيكو\" بين الهلال والنصر؟",
-        "photoBefore": "",
-        "photoAfter": "",
+        "photoBefore": "nophoto.png",
+        "photoAfter": "elton.png",
         "answer": "إلتون جوزيه",
         "score": 200
     },
     {
         "question": "ما هو الفريق الذي يُلقب بـ \"الليث الأبيض\" في الدوري السعودي؟",
-        "photoBefore": "",
-        "photoAfter": "",
+        "photoBefore": "saudileague.png",
+        "photoAfter": "alshabab.png",
         "answer": "نادي الشباب",
         "score": 200
     }
