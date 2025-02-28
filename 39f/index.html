@@ -106,6 +106,16 @@
                 </div>
             </label>
 
+            <input type="checkbox" id="7" class="check" value="saudiseries">
+            <label for="7">
+                <div class="game">
+                    <div class="game-background" style="background-image: url(gfx/saudiseries.png);"></div>
+                    <div class="game-title">
+                        <p>مسلسلات سعودية</p>
+                    </div>  
+                </div>
+            </label>
+
         </div>
     </div>
     <a href="#top" class="play-button" onclick="checkIfSelected()">
@@ -163,7 +173,11 @@
             
         </div>
         <div class="answer-reveal">
-            <div class="space"></div>
+            <div class="space">
+                <div class="play-button" style="border: 2px solid white;" id="changeButton" onclick="changeQuestion()">
+                    <p>تغيير السؤال</p>
+                </div>
+            </div>
             <div class="answer">
                 <p id="answer"></p>
             </div>
@@ -269,6 +283,7 @@
 
     var photoAfter = "";
 
+    setInterval(setTime, 1000);
     var totalSeconds = 0;
     function setTime(){
         ++totalSeconds;
@@ -287,14 +302,19 @@
     
     var questionScore = 0;
     var questionDiv = "";
+    var questionChange = "";
+
+    function changeQuestion(){
+        chooseQuestion(questionDiv, questionChange);
+    }
 
     function chooseQuestion(something, question){
         questionDiv = something;
+        questionChange = question;
         document.getElementById("fourth").style.display = "none";
         document.getElementById("fifth").style.display = "block";
         var timer = document.getElementById("timer");
         
-        setInterval(setTime, 1000);
 
         fetch('jsons/'+question+'.json')
             .then(res => res.json())
@@ -312,6 +332,7 @@
         document.getElementById("answer").style.opacity = 100;
         document.getElementById("question-image").innerHTML = "<img src=\"gfx/"+ photoAfter +"\">";
         document.getElementById("answerButton").style.display = "none";
+        document.getElementById("changeButton").style.display = "none";
         document.getElementById("team1-score").style.display = "block";
         document.getElementById("team2-score").style.display = "block";
         document.getElementById("noteam").style.display = "block";
