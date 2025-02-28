@@ -293,7 +293,7 @@
 
     var photoAfter = "";
 
-    setInterval(setTime, 1000);
+    
     var totalSeconds = 0;
     function setTime(){
         ++totalSeconds;
@@ -310,17 +310,23 @@
         }
     }
     
+    var timerr = setInterval(setTime, 1000);
+    clearInterval(timerr);
+
     var questionScore = 0;
     var questionDiv = "";
     var questionChange = "";
 
     function changeQuestion(){
         chooseQuestion(questionDiv, questionChange);
+        totalSeconds = 0;
     }
 
     function chooseQuestion(something, question){
         questionDiv = something;
         questionChange = question;
+        clearInterval(timerr);
+        timerr = setInterval(setTime, 1000);
         document.getElementById("fourth").style.display = "none";
         document.getElementById("fifth").style.display = "block";
         var timer = document.getElementById("timer");
@@ -346,7 +352,7 @@
         document.getElementById("team1-score").style.display = "block";
         document.getElementById("team2-score").style.display = "block";
         document.getElementById("noteam").style.display = "block";
-        clearInterval(setTime);
+        clearInterval(timerr);
         totalSeconds = 0;
     }
 
@@ -386,7 +392,7 @@
         document.getElementById("fourth").style.display = "block";
 
         document.getElementById("answerButton").style.display = "block";
-        document.getElementById("changeButton").style.display = "block";
+        document.getElementById("changeButton").style.display = "";
         document.getElementById("team1-score").style.display = "none";
         document.getElementById("team2-score").style.display = "none";
         document.getElementById("noteam").style.display = "none";
