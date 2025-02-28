@@ -1,43 +1,43 @@
 [
     {
         "question": "من الفريق الذي فاز بالدوري الإسباني في موسم 2017-2018؟",
-        "photoBefore": "",
-        "photoAfter": "",
+        "photoBefore": "laliga.png",
+        "photoAfter": "realmadrid.png",
         "answer": "ريال مدريد",
         "score": 100
     },
     {
         "question": "أي فريق فاز بالدوري الإسباني في موسم 2020-2021؟",
         "photoBefore": "",
-        "photoAfter": "",
+        "photoAfter": "atletico.png",
         "answer": "أتلتيكو مدريد",
         "score": 100
     },
     {
         "question": "من هو اللاعب الذي يعتبر الهداف التاريخي لبرشلونة؟",
-        "photoBefore": "",
-        "photoAfter": "",
+        "photoBefore": "barcelona.png",
+        "photoAfter": "messi.png",
         "answer": "ليونيل ميسي",
         "score": 100
     },
     {
         "question": "أي فريق فاز بالدوري الإسباني في موسم 2019-2020؟",
-        "photoBefore": "",
-        "photoAfter": "",
+        "photoBefore": "laliga.png",
+        "photoAfter": "realmadrid.png",
         "answer": "ريال مدريد",
         "score": 100
     },
     {
         "question": "ما هو اسم ملعب فريق ريال مدريد؟",
-        "photoBefore": "",
-        "photoAfter": "",
+        "photoBefore": "realmadrid.png",
+        "photoAfter": "realmadridstadium.png",
         "answer": "سنتياغو برنابيو",
         "score": 100
     },
     {
         "question": "من هو النادي الذي يُلقب بـ \"الروخي بلانكوس\"؟",
-        "photoBefore": "",
-        "photoAfter": "",
+        "photoBefore": "laliga.png",
+        "photoAfter": "atletico.png",
         "answer": "أتلتيكو مدريد",
         "score": 100
     }

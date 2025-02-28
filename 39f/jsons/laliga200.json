@@ -1,43 +1,43 @@
 [
     {
         "question": "من هو اللاعب الذي فاز بجائزة \"البيتشيتشي\" كهداف الدوري الإسباني في موسم 2020-2021؟",
-        "photoBefore": "",
-        "photoAfter": "",
+        "photoBefore": "laliga.png",
+        "photoAfter": "messitopscorer.png",
         "answer": "ليونيل ميسي",
         "score": 200
     },
     {
         "question": "من هو الفريق الذي فاز بالدوري الإسباني في موسم 2017-2018؟",
-        "photoBefore": "",
-        "photoAfter": "",
+        "photoBefore": "laliga.png",
+        "photoAfter": "realmadrid.png",
         "answer": "ريال مدريد",
         "score": 200
     },
     {
         "question": "من هو المدرب الذي قاد برشلونة للفوز بدوري أبطال أوروبا في 2009 و2011؟",
-        "photoBefore": "",
-        "photoAfter": "",
+        "photoBefore": "barcelona.png",
+        "photoAfter": "pepguardiolabarcelona.png",
         "answer": "بيب جوارديولا",
         "score": 200
     },
     {
         "question": "من هو الفريق الذي فاز بالدوري الإسباني في موسم 2013-2014؟",
-        "photoBefore": "",
-        "photoAfter": "",
+        "photoBefore": "laliga.png",
+        "photoAfter": "atletico.png",
         "answer": "أتلتيكو مدريد",
         "score": 200
     },
     {
         "question": "ما هو اسم ملعب فريق أتلتيكو مدريد؟",
-        "photoBefore": "",
-        "photoAfter": "",
+        "photoBefore": "atletico.png",
+        "photoAfter": "atleticostadium.png",
         "answer": "واندا متروبوليتانو",
         "score": 200
     },
     {
         "question": "من هو اللاعب الذي يعتبر الهداف التاريخي لريال مدريد في الدوري الإسباني؟",
-        "photoBefore": "",
-        "photoAfter": "",
+        "photoBefore": "laliga",
+        "photoAfter": "cristiano.png",
         "answer": "كريستيانو رونالدو",
         "score": 200
     }
