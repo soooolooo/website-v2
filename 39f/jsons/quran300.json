@@ -1,0 +1,44 @@
+[
+    {
+        "question": "ما هي السورة التي تسمى \"سورة الحواريين\"؟",
+        "photoBefore": "quran.png",
+        "photoAfter": "quran.png",
+        "answer": "سورة الصف",
+        "score": 300
+    },
+    {
+        "question": "ما هي السورة التي ذكرت فيها الجنة ولم تذكر فيها النار؟",
+        "photoBefore": "quran.png",
+        "photoAfter": "quran.png",
+        "answer": "سورة الرحمن",
+        "score": 300
+    },
+    {
+        "question": "ما هي السورة التي تسمى سورة القتال، ولماذا سميت بهذا الاسم؟",
+        "photoBefore": "quran.png",
+        "photoAfter": "quran.png",
+        "answer": "سورة محمد",
+        "score": 300
+    },
+    {
+        "question": "ما هي السورة التي سميت باسم يوم من أيام الأسبوع، وما هو هذا اليوم؟",
+        "photoBefore": "quran.png",
+        "photoAfter": "quran.png",
+        "answer": "سورة الجمعة",
+        "score": 300
+    },
+    {
+        "question": "ما هي السورة التي سميت باسم نجم، وما هو هذا النجم؟",
+        "photoBefore": "quran.png",
+        "photoAfter": "quran.png",
+        "answer": "سورة النجم",
+        "score": 300
+    },
+    {
+        "question": "ما هي السورة التي نزلت في يهود المدينة وتتحدث عن تحدي القرآن لهم؟",
+        "photoBefore": "quran.png",
+        "photoAfter": "quran.png",
+        "answer": "سورة البقرة",
+        "score": 300
+    }
+]
