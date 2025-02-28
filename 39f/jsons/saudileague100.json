@@ -1,43 +1,43 @@
 [
     {
         "question": "ما هو اسم الدوري السعودي للمحترفين حالياً؟",
-        "photoBefore": "",
-        "photoAfter": "",
+        "photoBefore": "nophoto.png",
+        "photoAfter": "saudileague.png",
         "answer": "دوري روشن السعودي",
         "score": 100
     },
     {
         "question": "من النادي الذي فاز بالدوري السعودي في موسم 2020-2021؟",
-        "photoBefore": "",
-        "photoAfter": "",
+        "photoBefore": "saudileague.png",
+        "photoAfter": "alhilal.png",
         "answer": "نادي الهلال",
         "score": 100
     },
     {
         "question": "من هو اللاعب الذي يُلقب بـ \"السوبر هاتريك\" في الدوري السعودي؟",
-        "photoBefore": "",
-        "photoAfter": "",
+        "photoBefore": "nophoto.png",
+        "photoAfter": "naser-alshamrani.png",
         "answer": "ناصر الشمراني",
         "score": 100
     },
     {
         "question": "ما هو الفريق الذي فاز بالدوري السعودي في موسم 2019-2020؟",
-        "photoBefore": "",
-        "photoAfter": "",
+        "photoBefore": "saudileague.png",
+        "photoAfter": "alhilal.png",
         "answer": "نادي الهلال",
         "score": 100
     },
     {
         "question": "ما هو اسم ملعب نادي النصر حالياً؟",
-        "photoBefore": "",
-        "photoAfter": "",
-        "answer": "استاد مرسول بارك",
+        "photoBefore": "alawalparkbefore.png",
+        "photoAfter": "alawalpark.png",
+        "answer": "استاد الأول بارك (مرسول بارك سابقاً)",
         "score": 100
     },
     {
         "question": "ما هو الفريق الذي يُلقب بـ \"العميد\" في الدوري السعودي؟",
-        "photoBefore": "",
-        "photoAfter": "",
+        "photoBefore": "nophoto.png",
+        "photoAfter": "ittihad.png",
         "answer": "نادي الإتحاد",
         "score": 100
     }
