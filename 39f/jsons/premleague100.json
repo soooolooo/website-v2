@@ -1,43 +1,43 @@
 [
     {
         "question": "من هو النادي الأكثر فوزًا بلقب الدوري الإنجليزي؟",
-        "photoBefore": "",
-        "photoAfter": "",
+        "photoBefore": "premleague.png",
+        "photoAfter": "manutd.png",
         "answer": "مانشستر يونايتد",
         "score": 100
     },
     {
         "question": "ما هو اسم الدوري الإنجليزي الممتاز؟",
-        "photoBefore": "",
-        "photoAfter": "",
+        "photoBefore": "premleague.png",
+        "photoAfter": "premleague.png",
         "answer": "Premier League",
         "score": 100
     },
     {
         "question": "أي فريق فاز بالدوري الإنجليزي في موسم 2020-2021؟",
-        "photoBefore": "",
-        "photoAfter": "",
+        "photoBefore": "premleague.png",
+        "photoAfter": "manutd.png",
         "answer": "مانشستر سيتي",
         "score": 100
     },
     {
         "question": "ما هو ملعب نادي مانشستر يونايتد؟",
-        "photoBefore": "",
-        "photoAfter": "",
+        "photoBefore": "manutd.png",
+        "photoAfter": "manutdstadium.png",
         "answer": "أولد ترافورد",
         "score": 100
     },
     {
         "question": "أي فريق فاز بلقب الدوري الإنجليزي في موسم 2019-2020؟",
-        "photoBefore": "",
-        "photoAfter": "",
+        "photoBefore": "premleague.png",
+        "photoAfter": "liverpool.png",
         "answer": "ليفربول",
         "score": 100
     },
     {
         "question": "من هو اللاعب الذي سجل أكبر عدد من الأهداف في تاريخ الدوري الإنجليزي؟",
-        "photoBefore": "",
-        "photoAfter": "",
+        "photoBefore": "premleague.png",
+        "photoAfter": "alanshearar.png",
         "answer": "آلان شيرار",
         "score": 100
     }
