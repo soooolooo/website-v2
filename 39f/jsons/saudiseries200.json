@@ -1,0 +1,23 @@
+[
+    {
+        "question": "ما اسم هذا المسلسل؟",
+        "photoBefore": "شفت الليل 200.jpg",
+        "photoAfter": "شفت الليل 200.jpg",
+        "answer": "شفت الليل",
+        "score": 200
+    },
+    {
+        "question": "ما اسم هذا المسلسل؟",
+        "photoBefore": "اخواني واخواتي 200.jpg",
+        "photoAfter": "اخواني واخواتي 200.jpg",
+        "answer": "اخواني واخواتي",
+        "score": 200
+    },
+    {
+        "question": "ما اسم هذا المسلسل؟",
+        "photoBefore": "37 درجة 200.jpg",
+        "photoAfter": "37 درجة 200.jpg",
+        "answer": "37 درجة",
+        "score": 200
+    }
+]
