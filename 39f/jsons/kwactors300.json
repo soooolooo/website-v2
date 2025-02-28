@@ -1,0 +1,23 @@
+[
+    {
+        "question": "السؤال الثالث",
+        "photoBefore": "newsteam1.png",
+        "photoAfter": "test1.png",
+        "answer": "الجواب الثالث",
+        "score": 300
+    },
+    {
+        "question": "2السؤال الثالث",
+        "photoBefore": "newsteam1.png",
+        "photoAfter": "test1.png",
+        "answer": "الجواب الثالث",
+        "score": 300
+    },
+    {
+        "question": "3السؤال الثالث",
+        "photoBefore": "newsteam1.png",
+        "photoAfter": "test1.png",
+        "answer": "الجواب الثالث",
+        "score": 300
+    }
+]

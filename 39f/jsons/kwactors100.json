@@ -1,0 +1,24 @@
+[
+    {
+        "question": "السؤال الأول",
+        "photoBefore": "kwactors.png",
+        "photoAfter": "39f.png",
+        "answer": "الجواب الأول",
+        "score": 100
+    },
+    {
+        "question": "2السؤال الأول",
+        "photoBefore": "kwactors.png",
+        "photoAfter": "39f.png",
+        "answer": "2الجواب الأول",
+        "score": 100
+    }
+    ,
+    {
+        "question": "سؤال فيه 3 و 2 و 1 بالترتيب العكسي",
+        "photoBefore": "kwactors.png",
+        "photoAfter": "39f.png",
+        "answer": "3الجواب الأول",
+        "score": 100
+    }
+]

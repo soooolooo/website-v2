@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="39f">
+    <meta name="description" content="لعبة عصف">
+    <meta name="author" content="Osama">
+    <title>لعبة عصف</title>
+    <link rel="icon" href="gfx/39f.png">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Almarai&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<div class="index-header">
+    <a href="index.html" class="header-item">
+        <p>الصفحة الرئيسية</p>
+    </a>
+    <div>
+        <img src="gfx/39f.png" class="index-logo">
+    </div>
+    <a href="aboutus.html" class="header-item">
+        <p>من نحن</p>
+    </a> 
+</div>
+<body>
+
+<div  id="first">
+    <div class="welcome">
+        <h1>مرحبا بك في لعبة عصف</h1>
+        <img src="gfx/39f.png">
+        <h2>لعبة جماعية تختبر فيها اثراءاتكم المعلوماتية</h2>
+        <h1>مجاناً!</h1>
+    </div>
+    <a href="#" class="play-button" onclick="hideFirst()">
+        ابدأ
+    </a>
+</div>
+
+<div  id="second">
+    <div class="games-container" style="line-height: 50px;" id="red1">
+        <h1>الخطوة الأولى: اختاروا الشرائح المناسبة لكل فريق
+            <br>
+        <h2>أقصى عدد شرائح: 6</h2>
+        </h1>
+    </div>
+    <div class="games-container" style="background-color: white; border-top: 2px solid #6d90b9; border-bottom: 2px solid #6d90b9; border-radius: 0px;">
+        <div class="games">
+            <input type="checkbox" id="1" class="check" value="generalinfo">
+            <label for="1">
+                <div class="game">
+                <div class="game-background" style="background-image: url(gfx/generalinfo.png);"></div>
+                <div class="game-title">
+                    <p>معلومات عامة</p>
+                </div>  
+            </div>
+            </label>
+            
+            <input type="checkbox" id="2" class="check" value="mohammed">
+            <label for="2">
+                <div class="game">
+                    <div class="game-background" style="background-image: url(gfx/mohammed.png);"></div>
+                    <div class="game-title">
+                        <p>السيرة النبوية</p>
+                    </div>  
+                </div>
+            </label>
+            
+            <input type="checkbox" id="3" class="check" value="saudileague">
+            <label for="3">
+                <div class="game">
+                    <div class="game-background" style="background-image: url(gfx/saudileague.png);"></div>
+                    <div class="game-title">
+                        <p>الدوري السعودي</p>
+                    </div>  
+                </div>
+            </label>
+    
+            <input type="checkbox" id="4" class="check" value="laliga">
+            <label for="4">
+                <div class="game">
+                    <div class="game-background" style="background-image: url(gfx/laliga.png);"></div>
+                    <div class="game-title">
+                        <p>الدوري الأسباني</p>
+                    </div>  
+                </div>
+            </label>
+            
+            <input type="checkbox" id="5" class="check" value="premleague">
+            <label for="5">
+                <div class="game">
+                    <div class="game-background" style="background-image: url(gfx/premleague.png);"></div>
+                    <div class="game-title">
+                        <p>الدوري الإنقليزي</p>
+                    </div>  
+                </div>
+            </label>
+
+            <input type="checkbox" id="6" class="check" value="kwactors">
+            <label for="6">
+                <div class="game">
+                    <div class="game-background" style="background-image: url(gfx/kwactors.png);"></div>
+                    <div class="game-title">
+                        <p>ممثلين كويتيين</p>
+                    </div>  
+                </div>
+            </label>
+
+        </div>
+    </div>
+    <a href="#top" class="play-button" onclick="checkIfSelected()">
+        التالي
+    </a>
+</div>
+
+<div  id="third">
+    <div class="games-container" id="red2">
+        <h1>الخطوة الثانية: كل فريق يختار له اسم متميز</h1>
+    </div>
+    <div class="teams-container">
+        <div class="team">
+            <p>الفريق الأول</p>
+            <input type="text" id="team1">
+        </div>
+        <div class="team">
+            <p>الفريق الثاني</p>
+            <input type="text" id="team2">
+        </div>
+    </div>
+        <a href="#top" class="play-button" onclick="checkIfWritten()">
+            إبدأ!
+        </a>
+    </div>
+</div>
+
+<div id="fourth">
+    <div class="category-container" id="categories">
+        
+    </div>
+    <div class="teams-ingame" id="team1-ingame">
+        <div class="team-ingame">
+            <p id="team1Name">:الفريق الأول </p>
+            <p id="team1Points">0</p>
+        </div>
+        <div class="team-ingame" id="team2-ingame">
+            <p id="team2Name">الفريق الثاني: </p>
+            <p id="team2Points">0</p>
+        </div>
+    </div>
+</div>
+
+<div id="fifth">
+    <div class="question-container">
+        <div class="question-timer">
+            <div class="questionn">
+                <p id="question">السؤال: ما هو السؤال الذي سيظهر على الشاشة مع الصورة الخاصة فيها؟</p>
+            </div>
+            <div class="timer">
+                <p id="timer">00:00</p>
+            </div>
+        </div>
+        <div class="question-image" id="question-image">
+            
+        </div>
+        <div class="answer-reveal">
+            <div class="space"></div>
+            <div class="answer">
+                <p id="answer"></p>
+            </div>
+            <div class="reveal">
+                <div class="play-button" style="border: 2px solid white;" id="answerButton" onclick="revealAnswer()">
+                    <p>أظهر الجواب</p>
+                </div>
+                <div class="team-scores">
+                    <div class="play-button" style="display:none; font-size: 20px; border: 2px solid white;" id="team1-score" onclick="scoreTeam(id)"></div>
+                    <div class="play-button" style="display:none; font-size: 20px; border: 2px solid white;" id="team2-score" onclick="scoreTeam(id)"></div>
+                    <div class="play-button" style="display:none; font-size: 20px; border: 2px solid white;" id="noteam" onclick="scoreTeam(id)">لا احد</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="sixth">
+    <div class="games-container" style="line-height: 150px; height: fit-content; padding: 100px;">
+        <h1 id="winner-announcement">الف مبروك للفريق الفائز!</h1>
+        <h1 id="winner-team">اسم الفريق الفائز</h1>
+    </div>
+    <a href="#" class="play-button" onclick="hideFirst()">
+        العبوا مرة أخرى!
+    </a>
+</div>
+</body>
+
+<script>
+    var team1Score = 0;
+    var team2Score = 0;
+
+    var allQuestions = 0;
+    var totalQuestions = 0;
+
+    function hideFirst(){
+        document.getElementById("first").style.display = "none";
+        document.getElementById("second").style.display = "block";
+        document.getElementById("sixth").style.display = "none";
+    }
+
+    function hideSecond(){
+        document.getElementById("second").style.display = "none";
+        document.getElementById("third").style.display = "block";
+    }
+    
+    var checks = document.querySelectorAll(".check");
+    var max = 6;
+    for (var i = 0; i < checks.length; i++)
+        checks[i].onclick = selectiveCheck;
+    var checkSelected = document.querySelector(".check:checked");
+
+    function selectiveCheck(event) {
+        checkedChecks = document.querySelectorAll(".check:checked");
+        if (checkedChecks.length >= max + 1)
+            return false;
+    }
+
+    function checkIfSelected(event){
+        checkSelected = document.querySelectorAll(".check:checked");
+        if (checkSelected.length == 0){
+            document.getElementById("red1").style.color = "red";
+        }
+        else{
+            hideSecond();
+        }
+    }
+
+    function checkIfWritten(){
+        if (document.getElementById("team1").value == "" || document.getElementById("team2").value == "" || document.getElementById("team1").value == document.getElementById("team2").value){
+            document.getElementById("red2").style.color = "red";
+        }
+        else{
+            team1Name = document.getElementById("team1").value;
+            team2Name = document.getElementById("team2").value;
+            document.getElementById("third").style.display = "none";
+            document.getElementById("fourth").style.display = "block";
+            document.getElementById("team1Name").innerText = "الفريق الأول: " + document.getElementById("team1").value;
+            document.getElementById("team2Name").innerText = "الفريق الثاني: " + document.getElementById("team2").value;
+            document.getElementById("team1-score").innerText = document.getElementById("team1").value;
+            document.getElementById("team2-score").innerText = document.getElementById("team2").value;
+            printCategories();
+        }
+    }
+
+    function printCategories(){
+        var finalOutput = "";
+        allQuestions = document.querySelectorAll(".check:checked").length * 6;
+
+        if (document.querySelectorAll(".check:checked").length == 1)
+            document.getElementById("categories").style.gridTemplateColumns = "auto";
+
+        else if (document.querySelectorAll(".check:checked").length == 2)
+            document.getElementById("categories").style.gridTemplateColumns = "auto auto";
+        
+        for(var i = 0; i < document.querySelectorAll(".check:checked").length; i++){
+            var categoryDiv = "<div class=\"category\"><div class=\"points\"><a href=\"#\" name=\""+ document.querySelectorAll(".check:checked")[i].value +"100\" onclick=\"chooseQuestion(id, name)\" id=\""+ document.querySelectorAll(".check:checked")[i].value +"100_1\" class=\"point\" style=\"border-radius: 0px 20px 0px 0px\">100</a><a class=\"point\" href=\"#\" name=\""+ document.querySelectorAll(".check:checked")[i].value +"200\" onclick=\"chooseQuestion(id, name)\" id=\""+ document.querySelectorAll(".check:checked")[i].value +"200_1\">200</a><a class=\"point\" href=\"#\" name=\""+ document.querySelectorAll(".check:checked")[i].value +"300\" onclick=\"chooseQuestion(id, name)\" id=\""+ document.querySelectorAll(".check:checked")[i].value +"300_1\" style=\"border-radius: 0px 0px 20px 0px\">300</a></div><div class=\"category-background\" style=\"background-image: url(gfx/"+ document.querySelectorAll(".check:checked")[i].value +".png);\"></div><div class=\"points\"><a class=\"point\" href=\"#\" name=\""+ document.querySelectorAll(".check:checked")[i].value +"100\" onclick=\"chooseQuestion(id, name)\" id=\""+ document.querySelectorAll(".check:checked")[i].value +"100_2\" style=\"border-radius: 20px 0px 0px 0px\">100</a><a class=\"point\" href=\"#\" name=\""+ document.querySelectorAll(".check:checked")[i].value +"200\" onclick=\"chooseQuestion(id, name)\" id=\""+ document.querySelectorAll(".check:checked")[i].value +"200_2\">200</a><a class=\"point\" href=\"#\" name=\""+ document.querySelectorAll(".check:checked")[i].value +"300\" onclick=\"chooseQuestion(id, name)\" id=\""+ document.querySelectorAll(".check:checked")[i].value +"300_2\" style=\"border-radius: 0px 0px 0px 20px\">300</a></div></div>";
+            //var categoryDiv = "<div class=\"category\"><div class=\"points\"><a href=\"#\" name=\""+ document.querySelectorAll(".check:checked")[i].value +"100\" onclick=\"chooseQuestion("+document.querySelectorAll(".check:checked")[i].value + "100, "+ document.querySelectorAll(".check:checked")[i].value +"100_1)\" id=\""+ document.querySelectorAll(".check:checked")[i].value +"100_1\" class=\"point\" style=\"border-radius: 0px 20px 0px 0px\">100</a><a class=\"point\" href=\"#\" onclick=\"chooseQuestion("+document.querySelectorAll(".check:checked")[i].value + "200)\" id=\""+ document.querySelectorAll(".check:checked")[i].value +"200\">200</a><a class=\"point\" href=\"#\" onclick=\"chooseQuestion("+document.querySelectorAll(".check:checked")[i].value + "300)\" id=\""+ document.querySelectorAll(".check:checked")[i].value +"300\" style=\"border-radius: 0px 0px 20px 0px\">300</a></div><div class=\"category-background\" style=\"background-image: url(gfx/"+ document.querySelectorAll(".check:checked")[i].value +".png);\"></div><div class=\"points\"><a class=\"point\" href=\"#\" onclick=\"chooseQuestion("+document.querySelectorAll(".check:checked")[i].value + "100)\" id=\""+ document.querySelectorAll(".check:checked")[i].value +"100\" style=\"border-radius: 20px 0px 0px 0px\">100</a><a class=\"point\" href=\"#\"onclick=\"chooseQuestion("+document.querySelectorAll(".check:checked")[i].value + "200)\" id=\""+ document.querySelectorAll(".check:checked")[i].value +"200\">200</a><a class=\"point\" href=\"#\" onclick=\"chooseQuestion("+document.querySelectorAll(".check:checked")[i].value + "300)\" id=\""+ document.querySelectorAll(".check:checked")[i].value +"300\" style=\"border-radius: 0px 0px 0px 20px\">300</a></div></div>";
+            finalOutput = finalOutput + categoryDiv;
+        }
+        document.getElementById("categories").innerHTML = finalOutput;
+    }
+
+    var photoAfter = "";
+
+    var totalSeconds = 0;
+    function setTime(){
+        ++totalSeconds;
+        timer.innerHTML = pad(parseInt(totalSeconds/60)) + ':' + pad(totalSeconds%60);
+    }
+
+    function pad(val){
+        var valString = val + "";
+        if(valString.length < 2){
+            return "0" + valString;
+        }
+        else{
+            return valString;
+        }
+    }
+    
+    var questionScore = 0;
+    var questionDiv = "";
+
+    function chooseQuestion(something, question){
+        questionDiv = something;
+        document.getElementById("fourth").style.display = "none";
+        document.getElementById("fifth").style.display = "block";
+        var timer = document.getElementById("timer");
+        
+        setInterval(setTime, 1000);
+
+        fetch('jsons/'+question+'.json')
+            .then(res => res.json())
+            .then(data => {
+                var randomNum = Math.floor(Math.random() * data.length);
+                photoAfter = data[randomNum].photoAfter;
+                document.getElementById("question").innerHTML = data[randomNum].question;
+                document.getElementById("question-image").innerHTML = "<img src=\"gfx/"+ data[randomNum].photoBefore +"\">";
+                document.getElementById("answer").innerHTML = data[randomNum].answer;
+                questionScore = data[randomNum].score;
+            })
+    }
+
+    function revealAnswer(){
+        document.getElementById("answer").style.opacity = 100;
+        document.getElementById("question-image").innerHTML = "<img src=\"gfx/"+ photoAfter +"\">";
+        document.getElementById("answerButton").style.display = "none";
+        document.getElementById("team1-score").style.display = "block";
+        document.getElementById("team2-score").style.display = "block";
+        document.getElementById("noteam").style.display = "block";
+        clearInterval(setTime);
+        document.getElementById("timer").innerHTML = "00:00";
+        totalSeconds = 0;
+    }
+
+    function scoreTeam(output){
+        if (output == "team1-score"){
+            team1Score = team1Score + questionScore;
+            document.getElementById("team1Points").innerHTML = team1Score;
+        }
+        else if(output == "team2-score"){
+            team2Score = team2Score + questionScore;
+            document.getElementById("team2Points").innerHTML = team2Score;
+        }
+        questionScore = 0;
+        totalQuestions = totalQuestions + 1;
+        if (totalQuestions == allQuestions){
+            document.getElementById("fifth").style.display = "none";
+            document.getElementById("sixth").style.display = "block";
+            if (team1Score > team2Score){
+                document.getElementById("winner-team").innerHTML = team1Name;
+            }
+            else if (team1Score < team2Score){
+                document.getElementById("winner-team").innerHTML = team2Name;
+            }
+            else{
+                document.getElementById("winner-announcement").innerHTML = "انتهت المباراة بالتعادل!";
+                document.getElementById("winner-team").innerHTML = "نشكر الفريقين على المستوى الرائع!"
+            }
+
+            team1Score = 0;
+            team2Score = 0;
+        }
+
+        else{
+        document.getElementById("fifth").style.display = "none";
+        document.getElementById("fourth").style.display = "block";
+
+        document.getElementById("answerButton").style.display = "block";
+        document.getElementById("team1-score").style.display = "none";
+        document.getElementById("team2-score").style.display = "none";
+        document.getElementById("noteam").style.display = "none";
+        }
+
+        document.getElementById("answer").style.opacity = 0;
+
+        document.getElementById(questionDiv).style.opacity = 0;
+        document.getElementById(questionDiv).style.pointerEvents = "none";
+    }
+</script>
