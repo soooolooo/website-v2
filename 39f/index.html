@@ -116,6 +116,16 @@
                 </div>
             </label>
 
+            <input type="checkbox" id="8" class="check" value="kwseries">
+            <label for="8">
+                <div class="game">
+                    <div class="game-background" style="background-image: url(gfx/kwseries.png);"></div>
+                    <div class="game-title">
+                        <p>مسلسلات سعودية</p>
+                    </div>  
+                </div>
+            </label>
+
         </div>
     </div>
     <a href="#top" class="play-button" onclick="checkIfSelected()">
@@ -314,8 +324,8 @@
         document.getElementById("fourth").style.display = "none";
         document.getElementById("fifth").style.display = "block";
         var timer = document.getElementById("timer");
+        document.getElementById("timer").innerHTML = "00:00";
         
-
         fetch('jsons/'+question+'.json')
             .then(res => res.json())
             .then(data => {
@@ -337,7 +347,6 @@
         document.getElementById("team2-score").style.display = "block";
         document.getElementById("noteam").style.display = "block";
         clearInterval(setTime);
-        document.getElementById("timer").innerHTML = "00:00";
         totalSeconds = 0;
     }
 
