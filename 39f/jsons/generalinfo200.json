@@ -1,85 +1,85 @@
 [
     {
         "question": "من هو مؤلف رواية 1984؟",
-        "photoBefore": "",
-        "photoAfter": "",
+        "photoBefore": "1984before.png",
+        "photoAfter": "1984after.png",
         "answer": "جورج أورويل",
         "score": 200
     },
     {
         "question": "من هو أول إنسان سافر إلى الفضاء؟",
-        "photoBefore": "",
-        "photoAfter": "",
+        "photoBefore": "astronaut.png",
+        "photoAfter": "yurigagarin.png",
         "answer": "يوري جاجارين",
         "score": 200
     },
     {
         "question": "ما هو اسم أول قمر صناعي أطلقه الإنسان إلى الفضاء؟",
-        "photoBefore": "",
-        "photoAfter": "",
+        "photoBefore": "satellite.png",
+        "photoAfter": "spotnik1.png",
         "answer": "سبوتنيك 1",
         "score": 200
     },
     {
         "question": "ما هو اسم أعمق بحيرة في العالم؟",
-        "photoBefore": "",
-        "photoAfter": "",
+        "photoBefore": "lakes.png",
+        "photoAfter": "baikal.png",
         "answer": "بحيرة بايكال (في روسيا)",
         "score": 200
     },
     {
         "question": "من هو الفنان الذي رسم لوحة الصرخة الشهيرة؟",
-        "photoBefore": "",
-        "photoAfter": "",
+        "photoBefore": "The_Scream.jpg",
+        "photoAfter": "Edvard_Munch.jpg",
         "answer": "إدفارد مونش",
         "score": 200
     },
     {
         "question": "ما هي اللغة الرسمية في سنغافورة؟",
-        "photoBefore": "",
-        "photoAfter": "",
+        "photoBefore": "singapore.png",
+        "photoAfter": "singapore.png",
         "answer": "الإنجليزية",
         "score": 200
     },
     {
-        "question": "من هو العالم الذي اخترع أول جهاز لقياس الزلازل؟",
-        "photoBefore": "",
-        "photoAfter": "",
-        "answer": "تشينغ-تسوي",
+        "question": "من هو العالم الذي اخترع جهاز لقياس الزلازل؟",
+        "photoBefore": "Kinemetrics_seismograph.jpg",
+        "photoAfter": "CharlesRichter.jpg",
+        "answer": "تشارلز فرانسيس ريختر",
         "score": 200
     },
     {
         "question": "ما هي أطول مدة زمنية قضتها محطة فضائية مأهولة في الفضاء؟",
-        "photoBefore": "",
-        "photoAfter": "",
+        "photoBefore": "nophoto.png",
+        "photoAfter": "nophoto.png",
         "answer": "محطة مير الفضائية، التي استمرت 15 عامًا",
         "score": 200
     },
     {
         "question": "في أي دولة يتم الاحتفال بمهرجان سان فيرمن الذي يشمل مصارعة الثيران؟",
-        "photoBefore": "",
-        "photoAfter": "",
+        "photoBefore": "worldmap.png",
+        "photoAfter": "spainflag.png",
         "answer": "إسبانيا (مدينة بامبلونا)",
         "score": 200
     },
     {
         "question": "من هو الفيلسوف الذي قال مقولته الشهيرة \"أنا أفكر إذن أنا موجود\"؟",
-        "photoBefore": "",
-        "photoAfter": "",
+        "photoBefore": "nophoto.png",
+        "photoAfter": "rene.png",
         "answer": "رينيه ديكارت",
         "score": 200
     },
     {
         "question": "من الذي اخترع جهاز الفاكس؟",
-        "photoBefore": "",
-        "photoAfter": "",
-        "answer": "ألكسندر بونين",
+        "photoBefore": "fax.png",
+        "photoAfter": "Alexander_Bain.jpg",
+        "answer": "الكسندر باين",
         "score": 200
     },
     {
         "question": "ما هو اسم أول فيلم فاز بجائزة الأوسكار لأفضل فيلم؟",
-        "photoBefore": "",
-        "photoAfter": "",
+        "photoBefore": "oscar.png",
+        "photoAfter": "Wings_(1927)_poster.jpg",
         "answer": "طريق الرياح (Wings) عام 1927",
         "score": 200
     }
