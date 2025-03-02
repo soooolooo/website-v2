@@ -272,7 +272,7 @@ body .question-container .question-image img{
 
 body .question-container .answer-reveal{
     display: grid;
-    grid-template-columns: 30% 40% 30%;
+    grid-template-columns: 32% 35% 32%;
     border-top: 2px solid #6d90b9;
     text-align: center;
     height: 70px;
@@ -292,11 +292,11 @@ body .question-container .team-scores{
 }
 
 body .question-container .answer-reveal .reveal p{
-    font-size: 24px;
+    font-size: 30px;
 }
 
-.space{
-    font-size: 24px;
+body .question-container .answer-reveal .space p{
+    font-size: 30px;
 }
 
 body .container1{
@@ -320,11 +320,9 @@ body .main-container{
 body .teams-ingame{
     padding: 30px;
     margin: 20px;
-    text-align: center;
-    
+    text-align: right;
     display: grid;
-    grid-template-columns: auto auto;
-    grid-template-rows: auto;
+    grid-template-columns: 40% 40%;
     gap: 20%;
     justify-content: center;
     font-size: 30px;
@@ -332,11 +330,13 @@ body .teams-ingame{
 
 body .teams-ingame .team-ingame{
     display: grid;
-    grid-template-columns: 300px 100px;
+    grid-template-columns: auto auto;
+    gap: 30%;
     justify-content: center;
     background-color:#6d90b9;
+    border: 2px solid #6d90b9;
     border-radius: 20px;
-    padding: 20px;
+    padding: 25px;
 }
 
 #first{

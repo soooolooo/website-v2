@@ -170,11 +170,11 @@
     <div class="teams-container">
         <div class="team">
             <p>الفريق الأول</p>
-            <input type="text" id="team1">
+            <input type="text" id="team1" maxlength="12">
         </div>
         <div class="team">
             <p>الفريق الثاني</p>
-            <input type="text" id="team2">
+            <input type="text" id="team2" maxlength="12">
         </div>
     </div>
         <a href="#top" class="play-button" onclick="checkIfWritten()">
@@ -187,8 +187,8 @@
     <div class="category-container" id="categories">
         
     </div>
-    <div class="teams-ingame" id="team1-ingame">
-        <div class="team-ingame">
+    <div class="teams-ingame" id="teams-ingame">
+        <div class="team-ingame" id="team1-ingame">
             <p id="team1Name">:الفريق الأول </p>
             <p id="team1Points">0</p>
         </div>
@@ -226,9 +226,9 @@
                     <p>أظهر الجواب</p>
                 </div>
                 <div class="team-scores">
-                    <div class="play-button" style="display:none; font-size: 24px; border: 2px solid white;" id="team1-score" onclick="scoreTeam(id)"></div>
-                    <div class="play-button" style="display:none; font-size: 24px; border: 2px solid white;" id="team2-score" onclick="scoreTeam(id)"></div>
-                    <div class="play-button" style="display:none; font-size: 24px; border: 2px solid white;" id="noteam" onclick="scoreTeam(id)">لا احد</div>
+                    <div class="play-button" style="display:none; font-size: 22px; border: 2px solid white;" id="team1-score" onclick="scoreTeam(id)"></div>
+                    <div class="play-button" style="display:none; font-size: 22px; border: 2px solid white;" id="team2-score" onclick="scoreTeam(id)"></div>
+                    <div class="play-button" style="display:none; font-size: 22px; border: 2px solid white;" id="noteam" onclick="scoreTeam(id)">لا احد</div>
                 </div>
             </div>
         </div>
@@ -319,6 +319,8 @@
             finalOutput = finalOutput + categoryDiv;
         }
         document.getElementById("categories").innerHTML = finalOutput;
+
+        document.getElementById("team2-ingame").style.backgroundColor = "white";
     }
 
     var photoAfter = "";
@@ -397,6 +399,15 @@
         }
         questionScore = 0;
         totalQuestions = totalQuestions + 1;
+        if (((totalQuestions + 1) % 2) == 0){
+            document.getElementById("team2-ingame").style.backgroundColor = "#6d90b9";
+            document.getElementById("team1-ingame").style.backgroundColor = "white"
+        }
+        else{
+            document.getElementById("team1-ingame").style.backgroundColor = "#6d90b9";
+            document.getElementById("team2-ingame").style.backgroundColor = "white"
+        }
+
         if (totalQuestions == allQuestions){
             document.getElementById("fifth").style.display = "none";
             document.getElementById("sixth").style.display = "block";
@@ -420,6 +431,8 @@
             document.getElementById("team1-score").style.display = "none";
             document.getElementById("team2-score").style.display = "none";
             document.getElementById("noteam").style.display = "none";
+            document.getElementById("team1-ingame").style.backgroundColor = "#6d90b9";
+            document.getElementById("team2-ingame").style.backgroundColor = "#6d90b9;"
         }
 
         else{
