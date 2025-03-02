@@ -136,6 +136,16 @@
                 </div>
             </label>
 
+            <input type="checkbox" id="10" class="check" value="guesscapital">
+            <label for="10">
+                <div class="game">
+                    <div class="game-background" style="background-image: url(gfx/guesscapital.png);"></div>
+                    <div class="game-title">
+                        <p>خمن العاصمة</p>
+                    </div>
+                </div>
+            </label>
+
         </div>
     </div>
     <a href="#top" class="play-button" onclick="checkIfSelected()">
@@ -206,9 +216,9 @@
                     <p>أظهر الجواب</p>
                 </div>
                 <div class="team-scores">
-                    <div class="play-button" style="display:none; font-size: 20px; border: 2px solid white;" id="team1-score" onclick="scoreTeam(id)"></div>
-                    <div class="play-button" style="display:none; font-size: 20px; border: 2px solid white;" id="team2-score" onclick="scoreTeam(id)"></div>
-                    <div class="play-button" style="display:none; font-size: 20px; border: 2px solid white;" id="noteam" onclick="scoreTeam(id)">لا احد</div>
+                    <div class="play-button" style="display:none; font-size: 24px; border: 2px solid white;" id="team1-score" onclick="scoreTeam(id)"></div>
+                    <div class="play-button" style="display:none; font-size: 24px; border: 2px solid white;" id="team2-score" onclick="scoreTeam(id)"></div>
+                    <div class="play-button" style="display:none; font-size: 24px; border: 2px solid white;" id="noteam" onclick="scoreTeam(id)">لا احد</div>
                 </div>
             </div>
         </div>
@@ -395,6 +405,11 @@
             team2Score = 0;
             document.getElementById("team1Points").innerHTML = team1Score;
             document.getElementById("team2Points").innerHTML = team2Score;
+            document.getElementById("answerButton").style.display = "block";
+            document.getElementById("changeButton").style.display = "block";
+            document.getElementById("team1-score").style.display = "none";
+            document.getElementById("team2-score").style.display = "none";
+            document.getElementById("noteam").style.display = "none";
         }
 
         else{
@@ -402,7 +417,7 @@
         document.getElementById("fourth").style.display = "block";
 
         document.getElementById("answerButton").style.display = "block";
-        document.getElementById("changeButton").style.display = "";
+        document.getElementById("changeButton").style.display = "block";
         document.getElementById("team1-score").style.display = "none";
         document.getElementById("team2-score").style.display = "none";
         document.getElementById("noteam").style.display = "none";
