@@ -56,7 +56,10 @@ body{
 }
 
 body .welcome{
-    background-image: linear-gradient(#6d90b9, white 90%);
+    background-color: #6d90b9;
+    background-image: url("gfx/ramadan.png");
+    background-size: contain;
+    /* background-image: linear-gradient(#6d90b9, white 90%); */
     text-align: center;
     font-size: 30px;
     padding: 50px 0px 200px 0px;
