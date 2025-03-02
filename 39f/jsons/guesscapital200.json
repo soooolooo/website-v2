@@ -1,0 +1,44 @@
+[
+    {
+        "question": "ماهي عاصمة البرتغال؟",
+        "photoBefore": "portugalflag.png",
+        "photoAfter": "portugalflag.png",
+        "answer": "لشبونة",
+        "score": 200
+    },
+    {
+        "question": "ماهي عاصمة سويسرا؟",
+        "photoBefore": "swissflag.png",
+        "photoAfter": "swissflag.png",
+        "answer": "برن",
+        "score": 200
+    },
+    {
+        "question": "ماهي عاصمة البرازيل",
+        "photoBefore": "brazil.png",
+        "photoAfter": "brazil.png",
+        "answer": "برازيليا",
+        "score": 200
+    },
+    {
+        "question": "ماهي عاصمة الأرجنتين",
+        "photoBefore": "argentinaflag.png",
+        "photoAfter": "argentinaflag.png",
+        "answer": "بوينس آريس",
+        "score": 200
+    },
+    {
+        "question": "ماهي عاصمة كندا؟",
+        "photoBefore": "canadaflag.png",
+        "photoAfter": "canadaflag.png",
+        "answer": "أوتاوا",
+        "score": 200
+    },
+    {
+        "question": "ماهي عاصمة السويد؟",
+        "photoBefore": "swedenflag.png",
+        "photoAfter": "swedenflag.png",
+        "answer": "ستوكهولم",
+        "score": 200
+    }
+]

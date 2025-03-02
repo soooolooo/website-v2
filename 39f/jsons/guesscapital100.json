@@ -1,0 +1,51 @@
+[
+    {
+        "question": "ماهي عاصمة مصر؟",
+        "photoBefore": "egyptflag.png",
+        "photoAfter": "egyptflag.png",
+        "answer": "القاهرة",
+        "score": 100
+    },
+    {
+        "question": "ماهي عاصمة فرنسا؟",
+        "photoBefore": "franceflag.png",
+        "photoAfter": "franceflag.png",
+        "answer": "باريس",
+        "score": 100
+    },
+    {
+        "question": "ما هي عاصمة المملكة المتحدة؟ (بريطانيا)",
+        "photoBefore": "britishflag.png",
+        "photoAfter": "britishflag.png",
+        "answer": "لندن",
+        "score": 100
+    },
+    {
+        "question": "ماهي عاصمة ألمانيا؟",
+        "photoBefore": "germanyflag.png",
+        "photoAfter": "germanyflag.png",
+        "answer": "برلين",
+        "score": 100
+    },
+    {
+        "question": "ماهي عاصمة إيطاليا؟",
+        "photoBefore": "italyflag.png",
+        "photoAfter": "italyflag.png",
+        "answer": "روما",
+        "score": 100
+    },
+    {
+        "question": "ماهي عاصمة إسبانيا؟",
+        "photoBefore": "spainflag.png",
+        "photoAfter": "spainflag.png",
+        "answer": "مدريد",
+        "score": 100
+    },
+    {
+        "question": "ماهي عاصمة الولايات المتحدة الأمريكية؟",
+        "photoBefore": "usa.png",
+        "photoAfter": "usa.png",
+        "answer": "واشنطن",
+        "score": 100
+    }
+]
