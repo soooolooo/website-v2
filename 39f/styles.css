@@ -295,6 +295,10 @@ body .question-container .answer-reveal .reveal p{
     font-size: 24px;
 }
 
+.space{
+    font-size: 24px;
+}
+
 body .container1{
     width: 99vw;
     height: 99vh;
