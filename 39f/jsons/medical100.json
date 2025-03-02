@@ -1,0 +1,44 @@
+[
+    {
+        "question": "ما هو العضو الذي يضخ الدم؟",
+        "photoBefore": "medicalquestion.png",
+        "photoAfter": "medicalquestion.png",
+        "answer": "القلب",
+        "score": 100
+    },
+    {
+        "question": "ما هو المرض الذي يحدث عندما يكون مستوى السكر في الدم مرتفعًا؟",
+        "photoBefore": "medicalquestion.png",
+        "photoAfter": "medicalquestion.png",
+        "answer": "مرض السكري",
+        "score": 100
+    },
+    {
+        "question": "ما هو الفيتامين الذي يساعد في تقوية العظام؟",
+        "photoBefore": "medicalquestion.png",
+        "photoAfter": "medicalquestion.png",
+        "answer": "فيتامين د",
+        "score": 100
+    },
+    {
+        "question": "ماذا يحدث إذا كانت درجة حرارة الجسم مرتفعة جدًا؟",
+        "photoBefore": "medicalquestion.png",
+        "photoAfter": "medicalquestion.png",
+        "answer": "يصاب الجسم بالحمى",
+        "score": 100
+    },
+    {
+        "question": "ماذا يحدث عندما تصاب بنزلة برد؟",
+        "photoBefore": "medicalquestion.png",
+        "photoAfter": "medicalquestion.png",
+        "answer": "سعال واحتقان في الأنف",
+        "score": 100
+    },
+    {
+        "question": "ما هو العضو المسؤول عن التنفس؟",
+        "photoBefore": "medicalquestion.png",
+        "photoAfter": "medicalquestion.png",
+        "answer": "الرئتين",
+        "score": 100
+    }
+]

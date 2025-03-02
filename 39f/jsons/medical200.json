@@ -1,0 +1,44 @@
+[
+    {
+        "question": "ما هو المرض الذي يجعل الجسم يعطش كثيرًا؟",
+        "photoBefore": "medicalquestion.png",
+        "photoAfter": "medicalquestion.png",
+        "answer": "السكري",
+        "score": 200
+    },
+    {
+        "question": "ما هو العضو الذي ينقي الدم من السموم؟",
+        "photoBefore": "medicalquestion.png",
+        "photoAfter": "medicalquestion.png",
+        "answer": "الكبد",
+        "score": 200
+    },
+    {
+        "question": "ما هو الفيتامين الذي يساعد في تحسين النظر؟",
+        "photoBefore": "medicalquestion.png",
+        "photoAfter": "medicalquestion.png",
+        "answer": "فيتامين أ (A)",
+        "score": 200
+    },
+    {
+        "question": "ما هي الأعراض الرئيسية للأنفلونزا؟",
+        "photoBefore": "medicalquestion.png",
+        "photoAfter": "medicalquestion.png",
+        "answer": "حمى، سعال، احتقان الأنف، آلام في الجسم",
+        "score": 200
+    },
+    {
+        "question": "ما هو اللقاح الذي يقي من مرض الحصبة؟",
+        "photoBefore": "medicalquestion.png",
+        "photoAfter": "medicalquestion.png",
+        "answer": "لقاح MMR",
+        "score": 200
+    },
+    {
+        "question": "ما هو العضو المسؤول عن هضم الطعام؟",
+        "photoBefore": "medicalquestion.png",
+        "photoAfter": "medicalquestion.png",
+        "answer": "المعدة",
+        "score": 200
+    }
+]
