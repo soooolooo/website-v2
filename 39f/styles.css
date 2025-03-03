@@ -131,9 +131,9 @@ body .games-container .game-background{
     height: 300px;
     border-radius: 30px 30px 0px 0px;
 
-    border-top: 5px solid rgba(0, 0, 0, 0);
-    border-left: 5px solid rgba(0, 0, 0, 0);
-    border-right: 5px solid rgba(0, 0, 0, 0);
+    border-top: 5px solid #e1efff;
+    border-left: 5px solid #e1efff;
+    border-right: 5px solid #e1efff;
 }
 
 body .games-container .game-title{
@@ -146,9 +146,9 @@ body .games-container .game-title{
     border-radius: 0px 0px 30px 30px;
     border-top: 2px solid #6d90b9;
 
-    border-bottom: 5px solid rgba(0, 0, 0, 0);
-    border-left: 5px solid rgba(0, 0, 0, 0);
-    border-right: 5px solid rgba(0, 0, 0, 0);
+    border-bottom: 5px solid #e1efff;
+    border-left: 5px solid #e1efff;
+    border-right: 5px solid #e1efff;
 }
 
 body .teams-container{
@@ -340,6 +340,48 @@ body .teams-ingame .team-ingame{
     border: 2px solid #6d90b9;
     border-radius: 20px;
     padding: 25px;
+}
+
+.about-intro{
+    font-size: 36px;
+    margin: 10px 0px;
+    padding: 50px;
+    line-height: 100px;
+    background-color:#6d90b9;
+}
+
+.about-members{
+    padding: 20px;
+    line-height: 30px;
+    margin: 10px;
+    display: grid;
+    text-align: center;
+    justify-content: center;
+    grid-template-columns: auto auto auto auto;
+}
+
+.about-members .member{
+    padding: 20px;
+    margin: 20px;
+    width:fit-content;
+    background-color: #6d90b9;
+    border-radius: 20px;
+}
+
+.about-members .member-image img{
+    border-radius: 100%;
+    border: 2px solid white;
+    width: 200px;
+    background-color: #6d90b9;
+}
+
+.about-members .member-socials{
+    margin-top: 10px;
+}
+
+.about-members .member-socials img{
+    width: 32px;
+    margin: 0px 5px;
 }
 
 #first{
