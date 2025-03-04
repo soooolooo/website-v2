@@ -1,0 +1,30 @@
+[
+    {
+        "question": "من المصارع الذي في الصورة؟",
+        "photoBefore": "ايدج 200.jpg",
+        "photoAfter": "ايدج 200.jpg",
+        "answer": "ايدج",
+        "score": 200
+    },
+    {
+        "question": "من المصارع الذي في الصورة؟",
+        "photoBefore": "دانيل برين 200.jpg",
+        "photoAfter": "دانيل برين 200.jpg",
+        "answer": "دانيل برين",
+        "score": 200
+    },
+    {
+        "question": "من المصارع الذي في الصورة؟",
+        "photoBefore": "شون مايكل 200.jpg",
+        "photoAfter": "شون مايكل 200.jpg",
+        "answer": "شون مايكل",
+        "score": 200
+    },
+    {
+        "question": "من المصارع الذي في الصورة؟",
+        "photoBefore": "كريس جريكو 200.jpg",
+        "photoAfter": "كريس جريكو 200.jpg",
+        "answer": "كريس جريكو",
+        "score": 200
+    }
+]
