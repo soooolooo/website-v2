@@ -1,0 +1,30 @@
+[
+    {
+        "question": "من هو هذا اللاعب؟",
+        "photoBefore": "اشرف حكيمي 100.jpg",
+        "photoAfter": "اشرف حكيمي 100.jpg",
+        "answer": "أشرف حكيمي",
+        "score": 100
+    },
+    {
+        "question": "من هو هذا اللاعب؟",
+        "photoBefore": "بيرلو 100.jpg",
+        "photoAfter": "بيرلو 100.jpg",
+        "answer": "بيرلو",
+        "score": 100
+    },
+    {
+        "question": "من هو هذا اللاعب؟",
+        "photoBefore": "دي يونق 100.png",
+        "photoAfter": "دي يونق 100.png",
+        "answer": "دي يونق",
+        "score": 100
+    },
+    {
+        "question": "من هو هذا اللاعب؟",
+        "photoBefore": "كليان امبابي 100.jpg",
+        "photoAfter": "كليان امبابي 100.jpg",
+        "answer": "كليان امبابي",
+        "score": 100
+    }
+]

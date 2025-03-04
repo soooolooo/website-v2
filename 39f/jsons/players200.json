@@ -1,0 +1,30 @@
+[
+    {
+        "question": "من هو هذا اللاعب؟",
+        "photoBefore": "خالد الغنام 200.jpg",
+        "photoAfter": "خالد الغنام 200.jpg",
+        "answer": "خالد الغنام",
+        "score": 200
+    },
+    {
+        "question": "من هو هذا اللاعب؟",
+        "photoBefore": "روبن لينورماد 200.png",
+        "photoAfter": "روبن لينورماد 200.png",
+        "answer": "روبن لينورماد",
+        "score": 200
+    },
+    {
+        "question": "من هو هذا اللاعب؟",
+        "photoBefore": "ماثيوس بريرا 200.jpg",
+        "photoAfter": "ماثيوس بريرا 200.jpg",
+        "answer": "ماثيوس بيريرا",
+        "score": 200
+    },
+    {
+        "question": "من هو هذا اللاعب؟",
+        "photoBefore": "ماريو بالوتيلي 200.jpg",
+        "photoAfter": "ماريو بالوتيلي 200.jpg",
+        "answer": "ماريو بالوتيلي",
+        "score": 200
+    }
+]
