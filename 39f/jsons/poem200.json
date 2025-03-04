@@ -1,0 +1,44 @@
+[
+    {
+        "question": "الجار قبل...",
+        "photoBefore": "poem.png",
+        "photoAfter": "poem.png",
+        "answer": "الدار",
+        "score": 200
+    },
+    {
+        "question": "ربّ ضارّة...",
+        "photoBefore": "poem.png",
+        "photoAfter": "poem.png",
+        "answer": "نافعة",
+        "score": 200
+    },
+    {
+        "question": "الغاية تبرّر...",
+        "photoBefore": "poem.png",
+        "photoAfter": "poem.png",
+        "answer": "الوسيلة",
+        "score": 200
+    },
+    {
+        "question": "ما كلّ ما يتمنى...",
+        "photoBefore": "poem.png",
+        "photoAfter": "poem.png",
+        "answer": "المرء يدركه",
+        "score": 200
+    },
+    {
+        "question": "إذا كنت في كلّ الأمور محتسباً......",
+        "photoBefore": "poem.png",
+        "photoAfter": "poem.png",
+        "answer": "فاز بك العجب",
+        "score": 200
+    },
+    {
+        "question": "العين لا تعلو...",
+        "photoBefore": "poem.png",
+        "photoAfter": "poem.png",
+        "answer": "على الحاجب",
+        "score": 200
+    }
+]

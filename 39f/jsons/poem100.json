@@ -1,0 +1,44 @@
+[
+    {
+        "question": "العقل زينة واللسان ......",
+        "photoBefore": "poem.png",
+        "photoAfter": "poem.png",
+        "answer": "مرآة",
+        "score": 100
+    },
+    {
+        "question": "ما كل ما يتمناه المرء .......",
+        "photoBefore": "poem.png",
+        "photoAfter": "poem.png",
+        "answer": "يدركه",
+        "score": 100
+    },
+    {
+        "question": "الوقت كالسيف إن لم تقطعه.......",
+        "photoBefore": "poem.png",
+        "photoAfter": "poem.png",
+        "answer": "قطعك",
+        "score": 100
+    },
+    {
+        "question": "من جد وجد ومن زرع ...........",
+        "photoBefore": "poem.png",
+        "photoAfter": "poem.png",
+        "answer": "حصد",
+        "score": 100
+    },
+    {
+        "question": "الطيور على أشكالها ...........",
+        "photoBefore": "poem.png",
+        "photoAfter": "poem.png",
+        "answer": "تقع",
+        "score": 100
+    },
+    {
+        "question": "الصبر مفتاح ............",
+        "photoBefore": "poem.png",
+        "photoAfter": "poem.png",
+        "answer": "الفرج",
+        "score": 100
+    }
+]
