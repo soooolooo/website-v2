@@ -1,0 +1,30 @@
+[
+    {
+        "question": "ما المعلم الموجود في الصورة؟",
+        "photoBefore": "الثراء 200.jpg",
+        "photoAfter": "الثراء 200.jpg",
+        "answer": "الثراء",
+        "score": 200
+    },
+    {
+        "question": "ما المعلم الموجود في الصورة؟",
+        "photoBefore": "تاج محل 200.png",
+        "photoAfter": "تاج محل 200.png",
+        "answer": "تاج محل",
+        "score": 200
+    },
+    {
+        "question": "ما المعلم الموجود في الصورة؟",
+        "photoBefore": "جبل النور 200.jpg",
+        "photoAfter": "جبل النور 200.jpg",
+        "answer": "جبل النور",
+        "score": 200
+    },
+    {
+        "question": "ما المعلم الموجود في الصورة؟",
+        "photoBefore": "دار أوبرا 200.jpg",
+        "photoAfter": "دار أوبرا 200.jpg",
+        "answer": "دار أوبرا",
+        "score": 200
+    }
+]
