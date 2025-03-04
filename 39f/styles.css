@@ -302,17 +302,6 @@ body .question-container .answer-reveal .space p{
     font-size: 30px;
 }
 
-body .container1{
-    width: 99vw;
-    height: 99vh;
-    text-align: center;
-    overflow-x: hidden;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-
 body .main-container{
     
     display: grid;
@@ -342,10 +331,9 @@ body .teams-ingame .team-ingame{
     padding: 25px;
 }
 
-body .teams-ingame .team-ingame #team1, #team2{
+body #fourth .teams-ingame .team-ingame #team1, body #fourth .teams-ingame .team-ingame #team2{
     margin: 0px 5px;
     padding: 5px;
-    pointer-events: auto;
 }
 
 .about-intro{
