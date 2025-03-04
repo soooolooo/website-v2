@@ -334,12 +334,18 @@ body .teams-ingame{
 body .teams-ingame .team-ingame{
     display: grid;
     grid-template-columns: auto auto;
-    gap: 30%;
+    gap: 20%;
     justify-content: center;
     background-color:#6d90b9;
     border: 2px solid #6d90b9;
     border-radius: 20px;
     padding: 25px;
+}
+
+body .teams-ingame .team-ingame #team1, #team2{
+    margin: 0px 5px;
+    padding: 5px;
+    pointer-events: auto;
 }
 
 .about-intro{

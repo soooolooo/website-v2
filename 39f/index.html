@@ -19,7 +19,7 @@
     <div>
         <img src="gfx/39f.png" class="index-logo">
     </div>
-    <a href="aboutus.html" class="header-item">
+    <a href="aboutus" class="header-item">
         <p>من نحن</p>
     </a> 
 </div>
@@ -191,11 +191,11 @@
     <div class="teams-ingame" id="teams-ingame">
         <div class="team-ingame" id="team1-ingame">
             <p id="team1Name">:الفريق الأول </p>
-            <p id="team1Points">0</p>
+            <p id="team1Points"><a onclick="increaseScore(id)" id="team1">+</a> 0 <a onclick="decreaseScore(id)" id="team1">-</a></p>
         </div>
         <div class="team-ingame" id="team2-ingame">
             <p id="team2Name">الفريق الثاني: </p>
-            <p id="team2Points">0</p>
+            <p id="team2Points"><a onclick="increaseScore(id)" id="team2">+</a> 0 <a onclick="decreaseScore(id)" id="team2">-</a></p>
         </div>
     </div>
 </div>
@@ -451,5 +451,27 @@
 
         document.getElementById(questionDiv).style.opacity = 0;
         document.getElementById(questionDiv).style.pointerEvents = "none";
+    }
+
+    function increaseScore(id){
+        if (id == "team1"){
+            team1Score = team1Score + 100;
+            document.getElementById("team1Points").innerHTML = "<a onclick=\"increaseScore(id)\" id=\"team1\">+</a> "+ team1Score +" <a onclick=\"decreaseScore(id)\" \id=\"team1\">-</a>";
+        }
+        else{
+            team2Score = team2Score + 100;
+            document.getElementById("team2Points").innerHTML = "<a onclick=\"increaseScore(id)\" id=\"team2\">+</a> "+ team2Score +" <a onclick=\"decreaseScore(id)\" \id=\"team2\">-</a>";
+        }
+    }
+
+    function decreaseScore(id){
+        if (id == "team1" && document.getElementById("team1Points").textContent != "+ 0 -"){
+            team1Score = team1Score - 100;
+            document.getElementById("team1Points").innerHTML = "<a onclick=\"increaseScore(id)\" id=\"team1\">+</a> "+ team1Score +" <a onclick=\"decreaseScore(id)\" \id=\"team1\">-</a>";
+        }
+        else if (id == "team2" && document.getElementById("team2Points").textContent != "+ 0 -"){
+            team2Score = team2Score - 100;
+            document.getElementById("team2Points").innerHTML = "<a onclick=\"increaseScore(id)\" id=\"team2\">+</a> "+ team2Score +" <a onclick=\"decreaseScore(id)\" \id=\"team2\">-</a>";
+        }
     }
 </script>
