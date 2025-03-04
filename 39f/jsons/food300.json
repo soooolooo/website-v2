@@ -1,0 +1,16 @@
+[
+    {
+        "question": "ما اسم هذه الأكلة؟",
+        "photoBefore": "عصيدة 300.jpg",
+        "photoAfter": "عصيدة 300.jpg",
+        "answer": "عصيدة",
+        "score": 300
+    },
+    {
+        "question": "ما اسم هذه الأكلة؟",
+        "photoBefore": "مرسة 300.jpg",
+        "photoAfter": "مرسة 300.jpg",
+        "answer": "مرسة",
+        "score": 300
+    }
+]
