@@ -1,0 +1,30 @@
+[
+    {
+        "question": "ما اسم العلامة التجارية لهذا المنتج؟",
+        "photoBefore": "المراعي بعد 100.png",
+        "photoAfter": "المراعي 100.png",
+        "answer": "المراعي",
+        "score": 100
+    },
+    {
+        "question": "ما اسم العلامة التجارية لهذا المنتج؟",
+        "photoBefore": "المرامي بعد 100.png",
+        "photoAfter": "مرامي 100.png",
+        "answer": "مرامي",
+        "score": 100
+    },
+    {
+        "question": "ما اسم العلامة التجارية لهذا المنتج؟",
+        "photoBefore": "كريسبي بعد 100.png",
+        "photoAfter": "كريسبي 100.jpg",
+        "answer": "كريسبي",
+        "score": 100
+    },
+    {
+        "question": "ما اسم العلامة التجارية لهذا المنتج؟",
+        "photoBefore": "قودي بعد 100.png",
+        "photoAfter": "قودي 100.png",
+        "answer": "قودي",
+        "score": 100
+    }
+]
