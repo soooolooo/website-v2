@@ -462,11 +462,11 @@
     function scoreTeam(output){
         if (output == "team1-score"){
             team1Score = team1Score + questionScore;
-            document.getElementById("team1Points").innerHTML = team1Score;
+            document.getElementById("team1Points").innerHTML = "<a onclick=\"increaseScore(id)\" id=\"team1\">+</a> "+ team1Score +" <a onclick=\"decreaseScore(id)\" \id=\"team1\">-</a>";
         }
         else if(output == "team2-score"){
             team2Score = team2Score + questionScore;
-            document.getElementById("team2Points").innerHTML = team2Score;
+            document.getElementById("team2Points").innerHTML = "<a onclick=\"increaseScore(id)\" id=\"team2\">+</a> "+ team2Score +" <a onclick=\"decreaseScore(id)\" \id=\"team2\">-</a>";
         }
         questionScore = 0;
         totalQuestions = totalQuestions + 1;
@@ -495,8 +495,8 @@
 
             team1Score = 0;
             team2Score = 0;
-            document.getElementById("team1Points").innerHTML = team1Score;
-            document.getElementById("team2Points").innerHTML = team2Score;
+            document.getElementById("team1Points").innerHTML = "<a onclick=\"increaseScore(id)\" id=\"team1\">+</a> "+ team1Score +" <a onclick=\"decreaseScore(id)\" \id=\"team1\">-</a>";
+            document.getElementById("team2Points").innerHTML = "<a onclick=\"increaseScore(id)\" id=\"team2\">+</a> "+ team2Score +" <a onclick=\"decreaseScore(id)\" \id=\"team2\">-</a>";
             document.getElementById("answerButton").style.display = "block";
             document.getElementById("changeButton").style.display = "block";
             document.getElementById("team1-score").style.display = "none";
