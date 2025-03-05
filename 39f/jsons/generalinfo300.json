@@ -1,3 +1,72 @@
 [
-    
+    {
+        "question": "ما هو أكبر مولد للطاقة في الكون؟",
+        "photoBefore": "nophoto.png",
+        "photoAfter": "blackhole.png",
+        "answer": "الثقب الأسود",
+        "score": 300
+    },
+    {
+        "question": "من هو العالم الذي اكتشف أن الأرض ليست مركز الكون؟",
+        "photoBefore": "nophoto.png",
+        "photoAfter": "Nikolaus_Kopernikus_MOT.jpg",
+        "answer": "نيكولاس كوبرنيكوس",
+        "score": 300
+    },
+    {
+        "question": "ما هو أعمق مكان مغطى بالجليد في العالم؟",
+        "photoBefore": "worldmap.png",
+        "photoAfter": "mariana.png",
+        "answer": "قاع البحر في خندق ماريانا",
+        "score": 300
+    },
+    {
+        "question": "من هو أول من وضع نظرية النسبية العامة والخاصة؟",
+        "photoBefore": "nophoto.png",
+        "photoAfter": "einestein",
+        "answer": "ألبرت أينشتاين",
+        "score": 300
+    },
+    {
+        "question": "ما هو أطول جبل في العالم؟",
+        "photoBefore": "nophoto.png",
+        "photoAfter": "Mauna_Loa_Mauna_Kea.jpg",
+        "answer": "جبل ماونا كيا (عند قياسه من قاع المحيط)",
+        "score": 300
+    },
+    {
+        "question": "من هو الذي ألف كتاب \"الجمهورية\"؟",
+        "photoBefore": "nophoto.png",
+        "photoAfter": "plato.jpg",
+        "answer": "أفلاطون (Plato)",
+        "score": 300
+    },
+    {
+        "question": "ما هو اسم أول حاسوب إلكتروني رقمي في العالم؟",
+        "photoBefore": "nophoto.png",
+        "photoAfter": "eniac.jpg",
+        "answer": "إنياك (ENIAC)",
+        "score": 300
+    },
+    {
+        "question": "ما هي المادة التي تعتبر المكون الأساسي للحديد؟",
+        "photoBefore": "chemistry.png",
+        "photoAfter": "chemistry.png",
+        "answer": "الحديد",
+        "score": 300
+    },
+    {
+        "question": "من هو أول من اكتشف الهيكل الجيني للحمض النووي؟",
+        "photoBefore": "nophoto.png",
+        "photoAfter": "jamesandfrancis.png",
+        "answer": "جيمس واتسون وفرانسيس كريك",
+        "score": 300
+    },
+    {
+        "question": "ما هو الكوكب الذي يمتلك أكبر عاصفة في النظام الشمسي؟",
+        "photoBefore": "nophoto.png",
+        "photoAfter": "Jupiter.jpg",
+        "answer": "كوكب المشتري",
+        "score": 300
+    }
 ]
